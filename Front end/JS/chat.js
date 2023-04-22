@@ -18,7 +18,7 @@ form.addEventListener('submit',(e)=>{
     const message=messagIp.value
     append(`You :${message}`,"right")
     socket.emit('send',message)
-    messagIp.innerText=''
+    messagIp.value=''
 })
 const name=prompt("Enter your name to join")
 socket.emit("new-user",name);
@@ -29,7 +29,6 @@ socket.on("userjoined",name=>{
 })
 
 socket.on("receive",data=>{
-    console.log(data)
     append(`${data.name} :${data.message}` ,"left")
 })
 
