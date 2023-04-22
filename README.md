@@ -1,6 +1,6 @@
 # Live-Chit-Chat
 
-Diployed Link :
+Diployed Link :  <a href="https://effervescent-salmiakki-66d46d.netlify.app">https://effervescent-salmiakki-66d46d.netlify.app</a>
 
 
 # Simple Chat app where you can join by simply entering your name 
